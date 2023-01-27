@@ -16,5 +16,4 @@ public class DependencyInjectionApplication {
         setterController.setBehaviorGeneral(new SetterInjectionImpl());
         setterController.sayHello();
     }
-
 }
