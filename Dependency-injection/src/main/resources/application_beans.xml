@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="animalFactory" class="spring5.dependencyinjection.config_bean_xml.AnimalFactory">
+    </bean>
+    <bean name="catImpl" class="spring5.dependencyinjection.config_bean_xml.CatImpl"/>
+    <bean name="dogImpl" class="spring5.dependencyinjection.config_bean_xml.DogImpl" primary="true"/>
+</beans>
